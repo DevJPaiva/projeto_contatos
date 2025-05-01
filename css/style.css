@@ -53,6 +53,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px;
+  margin: 0;
   border-bottom: 2px solid #c2c2c2;
 }
 
@@ -62,7 +63,21 @@ body {
   border-radius: 50%;
 }
 
-list-item__info {
+.list-item__info {
   padding: 0 10px;
-  
+  flex-grow: 1;
 }
+
+.list-item__name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.list-item__email {
+  font-size: 0.9em;
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/*parei na parte 3*/
+
