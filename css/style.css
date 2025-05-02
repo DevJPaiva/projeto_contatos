@@ -31,7 +31,7 @@ body {
   max-width: 600px;
   max-height: 400px;
   margin: 0 auto;
-  padding: 8px;
+  padding: 0px;
 
   background-color: #cfcfcf;
   border-radius: 8px;
@@ -57,9 +57,14 @@ body {
   border-bottom: 2px solid #c2c2c2;
 }
 
+.list-item:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
 .list-item__avatar > img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -79,5 +84,25 @@ body {
   color: #555;
 }
 
-/*parei na parte 3*/
+.list-item__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  opacity: 0%;
+}
+
+.list-item:hover .list-item__actions {
+  opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
 
